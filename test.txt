@@ -1,2 +1,6 @@
 pain O chocolat
+<<<<<<< HEAD
 hguj
+=======
+ygu
+>>>>>>> c6eea3a3ea7b1053142e063cb9a3ee43050a36f9
