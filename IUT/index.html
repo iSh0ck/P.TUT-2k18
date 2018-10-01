@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Information Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/navbar.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <script src="assets/js/main.js"></script>
+    </head>
+
+    <body>
+        <header>
+                <div class="hidden-xs header-full">
+                    <div class="conteneurlogo">
+                        <div class="header-titre-complet">
+                            <a href="">
+                                <img src="assets/img/logo.png" align="center" width="500" height="150">
+                            </a>
+                        </div>
+                    </div>
+                    <br /><br /><br /><br /><br /><br /><br />
+                </div>
+
+            <section>
+                <div class="conteneurnav menu">
+                    <div class="togglenav">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <ul class="menu cf">
+                        <li class="left"><a href=""><i class="fa fa-home" aria-hidden="true"></i> Accueil</a></li>
+                        <li class="left"><a href="presentation"><i class="fa fa-info" aria-hidden="true"></i> Présentation</a></li>
+                        <li class="left"><a href="synopsis"><i class="fa fa-align-center" aria-hidden="true"></i> Synopsis</a></li>
+                        <li class="left"><a href="personnages"><i class="fa fa-group" aria-hidden="true"></i> Personnages</a></li>
+                        <li class="left"><a href="femme"><i class="fa fa-female" aria-hidden="true"></i> Place de la femme <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="submenu">
+                                <li><a href=""><i class="fa fa-home" aria-hidden="true"></i> Sous-menu 1</a></li>
+                                <li><a href=""><i class="fa fa-comments" aria-hidden="true"></i> Sous-menu 2</a></li>
+                                <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i> Sous-menu 3</a></li>
+                                <li><a href=""><i class="fa fa-users" aria-hidden="true"></i> Sous-menu 4</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="right">
+                            <a href="apropos">
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i> A propos <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="equipe">
+                                        <i class="fa fa-handshake-o" aria-hidden="true"></i> Équipe
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="projet">
+                                        <i class="fa fa-briefcase" aria-hidden="true"></i> Projet
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="center bg">
+                            <a href="contact">
+                                <i class="fa fa-at" aria-hidden="true"></i> Contactez-nous
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+
+        <section class="slider">
+            <div class="slider1" data-interval="9000">
+                <div class="conteneur">
+                    <div class="titre-slider">
+                        <h6 class="">
+                            <font size="5">
+                                <span>IUT Info. Toulouse</span>
+                            </font>
+                        </h6>
+                    </div>
+                    <div class="sous-titre-slider"
+                        <ul class="list-supr soustitre-slider">
+                            <li>
+                                <span>Phrase 1</span>
+                            </li>
+                            <li>
+                                <span>Phrase 2</span>
+                            </li>
+                            <li>
+                                <span>Phrase 3</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br /><br />
+
+        <section class="colonne-x4 conteneurblocs">
+            <div class="conteneur">
+                <div class="ligne">
+                        <div class="bloc bloc-def">
+                            <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                                <i class="fa fa-database"></i>
+                            </span>
+                            <h4 class="titre-bloc">
+                                <b>Titre #1</b>
+                            </h4>
+                            <p class="bloc-desc">Commentaire #1</p>
+                        </div>
+                        <div class="bloc bloc-def">
+                            <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                                <i class="fa fa-database"></i>
+                            </span>
+                            <h4 class="titre-bloc">
+                                <b>Titre #2</b>
+                            </h4>
+                            <p class="bloc-desc">Commentaire #2</p>
+                        </div>
+                        <div class="bloc bloc-def">
+                            <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                                <i class="fa fa-database"></i>
+                            </span>
+                            <h4 class="titre-bloc">
+                                <b>Titre #3</b>
+                            </h4>
+                            <p class="bloc-desc">Commentaire #3</p>
+                        </div>
+                        <div class="bloc bloc-def">
+                            <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                                <i class="fa fa-database"></i>
+                            </span>
+                            <h4 class="titre-bloc">
+                                <b>Titre #4</b>
+                            </h4>
+                            <p class="bloc-desc">Commentaire #4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.menu').click(function(){
+                        $('ul').toggleClass('active');
+                    })
+                })
+            </script>
+        </footer>
+    </body>
+</html>
