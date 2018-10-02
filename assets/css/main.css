@@ -218,3 +218,14 @@ h4.titre-bloc{
 p.bloc-desc{
       color: #444;
 }
+.titre-page{
+	border-bottom: 1px solid #D32150;
+	width : 400px;
+	margin-left : 135px;
+}
+.margin-text{
+	margin-left : 135px;
+}
+h1.titre-text{
+	color: #D32150;
+}
