@@ -239,6 +239,10 @@ p.bloc-desc{
 	width : 300px;
 	margin-left : 125px;
 }
+.titre-perso{
+    border-bottom: 1px solid #D7A742;
+    width : 150px;
+}
 .margin-text{
 	margin-left : 125px;
 }
@@ -253,4 +257,14 @@ h1.titre-text{
 
 .texte-affiche {
 	margin-top: 10px;
+}
+div.cadre{
+    margin-right: 5px;
+    border: 3px;
+}
+.cadre-full{
+    display: inline-block;
+}
+.marge{
+    margin-left: 125px;
 }
