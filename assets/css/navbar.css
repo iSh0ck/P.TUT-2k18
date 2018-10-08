@@ -22,7 +22,7 @@ html body {
     z-index:100;
       position:relative;
 }
-.menu {			
+.menu {
   margin: 0 0;
   width: auto;
     line-height: auto;
@@ -43,12 +43,14 @@ html body {
   text-decoration: none;
   font-family: Arial, Helvetica;
   font-size: 14px;
+  transition: 0s;
 }
 .invisible {
   color: #333;
 }
 .menu li:hover {
   background: #D32150;
+  transition: 0.5s;
 }		
 .menu > li > a {
   transform: skewX(-25deg);
@@ -111,10 +113,10 @@ html body {
 .submenu li {
   opacity: 0;
   visibility: hidden;
-  z-index:100;			
+  z-index:100;
 }
 .submenu li {
-  transition: .2s ease transform;
+  transition: .3s ease transform;
   z-index:100;
 }
 .menu > li:hover .submenu,

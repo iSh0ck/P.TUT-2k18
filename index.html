@@ -19,7 +19,7 @@
                     <div class="conteneurlogo">
                         <div class="header-titre-complet">
                             <a href="">
-                                <img src="assets/img/logo.png" align="center" width="500" height="150" alt="logo site: Information game">
+                                <img src="assets/img/logo.png" class="resize" align="center" width="500" height="150" alt="logo site: Information game">
                             </a>
                         </div>
                     </div>
@@ -105,11 +105,68 @@
         <br /><br />
 
 		<h1 class="margin-text titre-text">Articles</h1>
-		<div class="titre-page"></div>
-		<br /><br />
-        <section class="colonne-x4 conteneurblocs">
-            <div class="conteneur-articles">
-                <div class="ligne">
+        <div class="titre-page"></div>
+        <br /><br />  
+
+        <section class="conteneurblocs flex">
+            <div class="conteneur-articles flex">
+                <div class="ligne flex cadre-full flex">
+                    <div class="bloc bloc-def">
+                        <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                            <i class="fa fa-info"></i>
+                        </span>
+                        <h4 class="titre-bloc">
+                            <b>Présentation</b>
+                        </h4>
+                        <p class="bloc-desc">
+					        Un film réalisé par Morten Tyldum, sorti en 2015.<br />
+							Il nous raconte comment Alan Turing décrypta le code Énigma allemand.<br />
+							Il nous montre également la place des femmes dans ce milieu.
+						</p>
+                    </div>
+                    <div class="bloc bloc-def">
+                        <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                            <i class="fa fa-align-center"></i>
+                        </span>
+                        <h4 class="titre-bloc">
+                            <b>Synopsis</b>
+                        </h4>
+                        <p class="bloc-desc">Commentaire #2</p>
+                    </div>
+                    <div class="bloc bloc-def">
+                        <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                            <i class="fa fa-group"></i>
+                        </span>
+                        <h4 class="titre-bloc">
+                            <b>Personnages</b>
+                        </h4>
+                        <p class="bloc-desc">
+							Nous nous interesserons particulièrement à la place de la femme dans ce film, 
+							on analysera principalement le personnage de Joan Clarke.
+				    		<br /><br />
+						</p>
+                    </div>
+                    <div class="bloc bloc-def">
+                        <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
+                            <i class="fa fa-pie-chart"></i>
+                        </span>
+                        <h4 class="titre-bloc">
+                            <b>Analyse</b>
+                        </h4>
+                        <p class="bloc-desc">Commentaire #4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br /><br /><br />
+		<h1 class="margin-text titre-text">Articles</h1>
+        <div class="titre-page"></div>
+        <br /><br />  
+
+        <section class="conteneurblocs flex">
+                <div class="conteneur-articles flex">
+                    <div class="ligne flex cadre-full flex">
                         <div class="bloc bloc-def">
                             <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
                                 <i class="fa fa-info"></i>
@@ -118,10 +175,10 @@
                                 <b>Présentation</b>
                             </h4>
                             <p class="bloc-desc">
-								Un film réalisé par Morten Tyldum, sorti en 2015.
-								Il nous raconte comment Alan Turing décrypta le code Énigma allemand.
-								Il nous montre également la place des femmes dans ce milieu.
-							</p>
+                                Un film réalisé par Morten Tyldum, sorti en 2015.<br />
+                                Il nous raconte comment Alan Turing décrypta le code Énigma allemand.<br />
+                                Il nous montre également la place des femmes dans ce milieu.
+                            </p>
                         </div>
                         <div class="bloc bloc-def">
                             <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
@@ -140,10 +197,10 @@
                                 <b>Personnages</b>
                             </h4>
                             <p class="bloc-desc">
-								Nous nous interesserons particulièrement à la place de la femme dans ce film, 
-								on analysera principalement le personnage de Joan Clarke.
-								<br /><br />
-							</p>
+                                Nous nous interesserons particulièrement à la place de la femme dans ce film, 
+                                on analysera principalement le personnage de Joan Clarke.
+                                <br /><br />
+                            </p>
                         </div>
                         <div class="bloc bloc-def">
                             <span class="icon-bloc icon-bloc-arrondi icon-bloc-inverse">
@@ -153,12 +210,53 @@
                                 <b>Analyse</b>
                             </h4>
                             <p class="bloc-desc">Commentaire #4</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <footer>
+        <footer class="footer">
+            <div class="footer">
+                <div class="menu-footer">
+                    <h2 class="titre-footer">Description</h2>
+                    <div class="s-titre-footer-nav"></div>
+                    <img src="assets/img/iut_logo.png" class="marge padding float" />
+                    <p class="texte-footer">
+                        Site web créer dans le cadre du projet tuteuré. 
+                        Il traite du film "The Imitation Game" 
+                        qui se rapporte à la place des femmes dans le monde de l'informatique.
+                    </p>
+                </div>
+                <div class="menu-footer">
+                    <h2 class="titre-footer">Navigation rapide</h2>
+                    <div class="s-titre-footer-nav"></div>
+                    <ul class="list-supr">
+                        <li class="style space list-supr"><a href="" class="style-footer hover marge-footer">Accueil</a></li>
+                        <li class="style space list-supr"><a href="" class="style-footer hover marge-footer">Présentation</a></li>
+                        <li class="style space list-supr"><a href="" class="style-footer hover marge-footer">Synopsis</a></li>
+                        <li class="style space list-supr"><a href="" class="style-footer hover marge-footer">Personnages</a></li>
+                    </ul>
+                </div>
+                <div class="menu-footer">
+                    <h2 class="titre-footer">Contact</h2>
+                    <div class="s-titre-footer-nav"></div>
+                    <ul class="list-supr">
+                        <li class="style space list-supr"><a href="" class="style-footer hover marge-footer">Formulaire de contact</a></li>
+                        <li class="style space list-supr"><a href="" class="style-footer hover marge-footer">contact@informationgame.fr</a></li>
+                    </ul>
+                 </div>
+            </div>
+            <div class="bottom-footer">
+                <center>
+                    <p class="texte-bottom-footer">
+                        Copyright © 2018 
+                        <a href="https://github.com/iSh0ck" class="style-bottom-footer hover-no-u">
+                            &lt;/&gt;-_iSh0ck</a>.
+                        Tous droit réservés.
+                    </p>
+                </center>
+            </div>
+
             <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
             <script type="text/javascript">
                 $(document).ready(function(){
@@ -167,14 +265,9 @@
                     })
                 })
             </script>
-            <ul class ="footer">
-            	<li><a href="http://iut.ups-tlse.fr/">
-            		<img src="assets/img/iut_logo.png" align="left" alt="logo iut">
-            		</a>
-          			<p>A propos :</p>
-        		</li>
-            	<li><p>"description site"</p></li>
-            </ul>
         </footer>
     </body>
 </html>
+
+
+

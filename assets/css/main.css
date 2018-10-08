@@ -5,6 +5,11 @@ body {
     line-height: 1.75em;
     margin: 0;
 }
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
 #header-full {
     color: #fff;
 }
@@ -49,7 +54,7 @@ body {
     margin-left: auto;
 }
 .conteneur-articles {
-    padding-right: 50px;
+    padding-right: 25px;
     padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -89,35 +94,55 @@ body {
     font-size: 20px;
     display: none;
 }
-@media (max-width:768px){
+@media (max-width:1280px){
     .togglenav{
         display: block;
     }
     .conteneurnav{
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: auto;
-    margin-left: auto;
+        display: flex;
+        flex-wrap: columns;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .resize{
+        width: 90%;
+        height: 90%;
+        margin-bottom: 0px;
+    }
+    .conteneur-slider1 {
+        padding-right: 0px;
+        padding-left: 50px;
+        padding-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
     }
     ul{
         width: 100%;
         display: none;
     }
     ul li{
-        display: block;
+        display: inline;
         text-align: center;
     }
     .active{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
     .conteneurlogo {
         padding-right: 0px;
         padding-left: 0px;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .list-supr{
         display: block;
+    }
+    div.titre-page{
+        border-bottom: 1px solid #D32150;
+        width : 200px;
+        margin-left : 125px;
     }
 }
 .slider .slider1 {
@@ -196,8 +221,10 @@ body {
     text-align: center;
     overflow: hidden;
     padding: 0px;
-    margin-bottom: 10px;
-    height: 325px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 23%;
+    min-width: 200px;
 }
 .bloc.bloc-def {
     background-color: #f6f6f6;
@@ -233,10 +260,12 @@ h4.titre-bloc{
 }
 p.bloc-desc{
       color: #444;
+      padding-left: 1px;
+      padding-right: 1px;
 }
 .titre-page{
 	border-bottom: 1px solid #D32150;
-	width : 300px;
+	width : 375px;
 	margin-left : 125px;
 }
 .titre-perso{
@@ -246,7 +275,7 @@ p.bloc-desc{
 .margin-text{
 	margin-left : 125px;
 }
-h1.titre-text{
+.titre-text{
 	color: #D32150;
 }
 
@@ -256,21 +285,110 @@ h1.titre-text{
 }
 
 .texte-affiche {
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 div.cadre{
-    margin-right: 5px;
-    border: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: solid 1px;
+    border-color: #b2bec3;
 }
 .cadre-full{
-    display: inline-block;
+    display: inline;
 }
 .marge{
     margin-left: 125px;
+}
+.padding{
+    padding-top: 20px;
+    padding-right: 10px;
 }
 ul.footer{
     list-style-image: none;
     line-height: auto;
     z-index:100;
       position:relative;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #333;
+}
+.menu-footer{
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 125px;
+    margin-right: 125px;
+    width: 450px;
+    min-width: 200px;
+}
+.s-titre-footer-nav{
+	border-top: 1px solid #D32150;
+	width : 220px;
+	margin-left : 125px;
+}
+.titre-footer{
+    padding-top: 20px;
+    color: #D32150;
+    margin-left: 125px;
+}
+.float{
+    float: left;
+}
+p.texte-footer{
+    margin-left: 125px;
+    color: #dfe6e9;
+}
+li.style{
+    list-style-type: none;
+    color: #dfe6e9;
+}
+li.space{
+    margin-left: 85px;
+}
+a.style-footer{
+    text-decoration: none;
+    color: #dfe6e9;
+    font-size: 14px;
+    height: 5px;
+    transition: 0.5s;
+}
+a.hover:hover{
+    color: #D32150;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.bottom-footer{
+    width: 100%;
+    background-color: #212121;
+}
+p.texte-bottom-footer{
+    color: #dfe6e9;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+a.style-bottom-footer{
+    text-decoration: none;
+    color: #7d5fff;
+    font-size: 14px;
+    height: 5px;
+    transition: 0.5s;
+}
+a.hover-no-u:hover{
+    color: #D32150;
+    transition: 0.5s;
+}
+.marge-footer{
+    margin-left: 40px;
 }
