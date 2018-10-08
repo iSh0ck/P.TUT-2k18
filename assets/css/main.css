@@ -268,3 +268,9 @@ div.cadre{
 .marge{
     margin-left: 125px;
 }
+ul.footer{
+    list-style-image: none;
+    line-height: auto;
+    z-index:100;
+      position:relative;
+}
