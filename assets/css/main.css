@@ -312,7 +312,7 @@ ul.footer{
     list-style-image: none;
     line-height: auto;
     z-index:100;
-      position:relative;
+    position:relative;
 }
 .flex{
     display: flex;
@@ -332,7 +332,7 @@ ul.footer{
     display: block;
     text-align: left;
     overflow: hidden;
-    margin-bottom: 125px;
+    margin-bottom: 25px;
     margin-right: 125px;
     width: 450px;
     min-width: 200px;
@@ -406,4 +406,16 @@ a.hover-no-u:hover{
     float: right;
     margin-left: 20px;
     font-size: 14px;
+}
+.style-ancre{
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    height: 5px;
+    transition: 0.5s;
+    text-align: right;
+}
+a.hover-ancre:hover{
+    color: #D32150;
+    transition: 0.5s;
 }
