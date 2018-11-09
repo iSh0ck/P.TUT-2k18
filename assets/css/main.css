@@ -419,3 +419,29 @@ a.hover-ancre:hover{
     color: #D32150;
     transition: 0.5s;
 }
+.style-ba{
+    margin-left: 125px;
+    padding-top: 30px;
+}
+table, th, td {
+    border: 1px solid;
+    border-color: #212121;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+table#infos-film {
+    margin-left: 125px;
+    margin-right: 125px;
+    min-width: 50%;
+}
+table#infos-film tr:nth-child(even) {
+    background-color: #eee;
+}
+table#infos-film tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#infos-film th {
+    background-color: #333;
+    color: white;
+}
